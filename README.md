@@ -2,11 +2,11 @@
 
 # API
 
-http://proxy.homeran.co.il/videos
+https://proxy.homeran.co.il/videos
 
 # Filterable List
 
-http://videos.homeran.co.il
+https://videos.homeran.co.il
 
 
 ## Setup

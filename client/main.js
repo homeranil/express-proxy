@@ -1,4 +1,4 @@
-const API_URL = 'http://proxy.homeran.co.il/videos';
+const API_URL = 'https://proxy.homeran.co.il/videos';
 const formElement = document.querySelector('form');
 const filterLinksElement = document.querySelector('.filter-links');
 const loadingElement = document.querySelector('#loading');
