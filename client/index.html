@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+
+  <title>Express Proxy Video For Youtube</title>
+
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Express Proxy Video</h1>
+    <div class="filter-links">
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="filter">Search</label>
+        <input type="text" class="form-control" id="filter">
+      </div>
+    </form>
+    <div id="loading">
+      <h3>Loading...</h3>
+      <video src="https://cdn.flixel.com/flixel/vg5u60m126u7qydd3e9i.phone.mp4" loop autoplay></video>
+    </div>
+    <section class="row" id="videos">
+
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
